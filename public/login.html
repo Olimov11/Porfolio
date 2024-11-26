@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="./style.css">
+  <title>Kirish</title>
+</head>
+<!-- <h1>bg-gradient-to-br from-blue-100 to-white</h1> -->
+<body class="flex items-center justify-center min-h-screen ">
+  <div class="w-full max-w-md bg-white rounded-lg shadow-lg p-8">
+    <h2 class="text-center text-2xl font-bold text-gray-800 mb-6">Kirish</h2>
+    <form action="index.html" method="GET">
+      <div class="mb-4">
+        <label for="phone" class="block text-sm font-medium text-gray-700">Telefon raqamingiz</label>
+        <input
+          type="text"
+          id="phone"
+          name="phone"
+          class="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"
+          placeholder="Telefon raqamingiz"
+          required
+        />
+      </div>
+      
+      <div class="mb-4">
+        <label for="password" class="block text-sm font-medium text-gray-700">Parol</label>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          class="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"
+          placeholder="Parol"
+          required
+        />
+      </div>
+
+      <a href="index.html">
+        <button
+          type="submit"
+          class="w-full bg-blue-600 text-white font-bold py-2 px-4 rounded-md hover:bg-blue-700 focus:outline-none focus:ring focus:ring-blue-300 disabled:bg-gray-300 disabled:cursor-not-allowed"
+        >
+          KIRISH
+        </button>
+      </a>
+    </form>
+  </div>
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.3.0/dist/tailwind.min.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="./style.css">
+  <style>
+     nav{
+      font-family: 'Irish Grover', cursive;
+     }
+     h1{
+      font-family: 'Irish Grover', cursive;
+     }
+  </style>
+</head>
+
+<body class="bg-gradient-to-br from-blue-100">
+  <nav class=" font-Irish Grover header-navbar flex gap-10 justify-between items-center bg-sky-600 text-gray-50">
+    <h1 class=" ">Logotip</h1>
+    <ul class="flex gap-10">
+      <li><a href="./index.html">Bosh Sahifa</a></li>
+      <li><a href="./index2.html">Kurslar</a></li>
+      <li><a href="./index3.html">Bloglar</a></li>
+      <li class="text-orange-600"><a href="./index4.html">Biz bilan aloqa</a></li>
+    </ul>
+    <button class="bg-orange-500 w-16 h-10 rounded-lg mr-5"><a href="./login.html">Krish</a></button>
+  </nav>
+  <div class="">
+    <h1 class="text-center ">Biz bilan bog’laning</h1>
+</div>
+  <section class=" p-32  font-Host Grotesk flex items-center justify-center min-h-screen bg-gradient-to-br from-blue-100 to-white">
+    <div class="w-full max-w-md bg-blue-50 rounded-lg shadow-lg p-8">
+      <form action="index.html" method="GET">
+        <div class="mb-6">
+          <input type="text" id="name" name="name"
+            class="mt-1 block w-full px-4 py-2 border border-blue-500 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"
+            placeholder="Ism va Familiya" required />
+        </div>
+        <div class="mb-6">
+          <input type="text" id="phone" name="phone"
+            class="mt-1 block w-full px-4 py-2 border border-blue-500 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"
+            placeholder="Telefon raqam" required />
+        </div>
+        <button type="submit"
+          class="w-full bg-blue-600 text-white font-bold py-2 px-4 rounded-md hover:bg-blue-700 focus:outline-none focus:ring focus:ring-blue-300">
+          Jo'natish
+        </button>
+      </form>
+    </div>
+  </section>
+</body>
+
+</html>
