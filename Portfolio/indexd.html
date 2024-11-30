@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body>
+
+    <section id="contact " class="bg py-16 bg-white">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-4xl font-bold mb-4">Bog‘lanish</h2>
+            <p class="text-gray-600 mb-8">Hamkorlik yoki ish haqida gaplashish uchun quyidagi formani to‘ldiring:</p>
+            <form action="#" method="POST" class="max-w-lg mx-auto space-y-6">
+                <input type="text" placeholder="Ismingiz"
+                    class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600">
+                <input type="email" placeholder="Emailingiz"
+                    class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600">
+                <textarea placeholder="Xabaringiz" rows="5"
+                    class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600"></textarea>
+                <button type="button"
+                    class="w-full bg-blue-600 text-white py-2 rounded-lg shadow hover:bg-blue-700 transition">
+                    <a href="https://t.me/mrAhmadillo" target="_blank" style="color: white; text-decoration: none;">
+                        Yuborish
+                    </a>
+                </button>
+            </form>
+        </div>
+
+    </section>
+    <script>
+        let person = {
+
+            firstName: 'Ahmadillo',
+
+            lastName: 'Olimov',
+
+            age: '15',
+
+            hobbies: {
+                pubg: 'pubg',
+            }
+        }
+
+        console.log(person.firstName)
+        console.log(person.lastName)
+        console.log(person.hobbies)
+    </script>
+</body>
+
+</html>
+
+
+<section id="about-me" class="container mx-auto py-16 px-6 text-gray-800 flex">
+    <div class="mr-20">
+        <h3 class="text-sm font-semibold uppercase text-gray-500 mb-2">MEN HAQIMDA
+        </h3>
+        <h2 class="text-4xl font-bold text-gray-800 mb-4">
+            Ijodiy badiiy direktor <br> va dizayner
+        </h2>
+        <p class="text-gray-600 text-lg leading-relaxed mb-6">
+            Bundan tashqari, uning yuzi odobli ekanligidan dalolat beradiki, <br> baliq birinchi bo'lib tugamaydi,
+            kechqurun bo'lingan kunlar yorug'lik zulmat yig'ilib, <br> quruq butun zulmatni yig'ib, to'rtinchisini
+            yaratolmaydi. Bundan tashqari, uning yuzi eritilgan edi. Shuningdek, yuziga ishora qiladi.
+        </p>
+        <a href="your_cv_link_here"
+            class="inline-block bg-gradient-to-r from-blue-600 to-purple-600 text-white font-medium py-3 px-8 rounded-lg shadow-lg hover:shadow-xl hover:scale-105 transition">
+            CV Yuklash
+        </a>
+    </div>
+    <img src="photo_2024-06-29_13-26-35.jpg" alt="Men"
+        class="w-64 h-64 rounded-full shadow-md hover:scale-110 transition items-end ">
+
+</section>
+
+
+
